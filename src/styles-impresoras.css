@@ -1,0 +1,67 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el contenedor de la imagen y la descripción */
+.image-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la imagen centrada */
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la descripción */
+.image-description {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Estilos para el botón de regresar */
+.btn-regresar {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #716f6f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambiar el color del botón cuando se pasa el mouse por encima */
+.btn-regresar:hover {
+    background-color: #1e1e1e;
+}
+
+/* Estilos adicionales para el enlace cuando se visualiza como botón */
+.btn-regresar {
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+/* Estilos para el enlace cuando se enfoca (al presionar Tab) */
+.btn-regresar:focus {
+    outline: none; /* Eliminar el contorno predeterminado */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3); /* Agregar un contorno personalizado */
+}

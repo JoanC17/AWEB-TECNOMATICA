@@ -1,0 +1,55 @@
+body {
+  background-image: url(img/login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  background-color: rgba(255, 255, 255, 0.9); /* Color de fondo semi-transparente */
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.primer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.error-form {
+  color: red;
+  font-size: 14px;
+  margin: 0;
+}
+
+.boton-inicio {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.registro-parrafo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.registro-parrafo a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.registro-parrafo a:hover {
+  text-decoration: underline;
+}

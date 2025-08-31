@@ -1,0 +1,73 @@
+/* Estilos para el cuerpo del documento */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(background.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* Centrar todo el contenido verticalmente */
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+	text-align: center;
+	margin: 20px 0;
+	font-size: 28px;
+	color: #000000; /* Color del texto del encabezado */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+	text-align: center;
+	font-size: 24px;
+	margin: 10px 0;
+	color: #000000; /* Color del texto de los subtítulos */
+}
+
+/* Estilos para el espacio reservado del logo */
+.logo {
+	display: block;
+	max-width: 200px; /* Ajusta el tamaño máximo del logo */
+	margin: 0 auto; /* Centrar el logo horizontalmente */
+	padding: 20px; /* Añadir un espaciado alrededor del logo */
+}
+
+/* Estilos para el contenedor de información */
+.info-container {
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 800px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el contenedor del mapa */
+#map {
+	height: 800px;
+	width: 50%;
+	margin-top: 40px; /* Espacio entre el texto y el mapa */
+}
+
+/* Estilos para el botón de regresar */
+#boton-regresar {
+	background-color: #3d3d3d;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	text-decoration: none;
+	margin-top: 10px; /* Ajustar el margen superior */
+}
+
+/* Cambiar el color del botón cuando se pasa el mouse por encima */
+#boton-regresar:hover {
+	background-color: #1a1a1a;
+}
+
+  
+  

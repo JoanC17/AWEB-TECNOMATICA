@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans';
+}
+
+header{
+	background-color: #333;
+	text-align: center;
+	padding: 25px;
+}
+nav a{
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #333;
+	color: #ffffff;
+}
+.encabezado-img{
+	background-image: url(IMG/encabezado-img.jpg);
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #000000;
+}
+.encabezado-img p{
+	font-size: 18px;
+}
+.encabezado-img h1{
+	font-size: 50px;
+	padding: 15px 0;
+
+}
+
+/* Estilos específicos para la sección de servicios y las tarjetas */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente los elementos dentro de la tarjeta */
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.service-card p {
+    color: #555;
+}
+
+/* Estilos específicos para la sección de "Contáctanos" */
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.map-container {
+    width: 70%;
+}
+
+/*BOTONES DE MAS INFORMACION*/
+/* Estilos para el botón de REPARACIONES */
+.info-product:nth-child(1) a {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Estilos para el botón de MANTENIMIENTO */
+  .info-product:nth-child(2) a {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Estilos para el botón de TELEFONIA */
+  .info-product:nth-child(3) a {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-button {
+    display: block; /* Convertirlo en un bloque para que ocupe todo el ancho */
+    margin: 0 auto; /* Centrar horizontalmente */
+    color: #fff;
+    padding: 50px 120px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    background-image: url("IMG/boton_contactar_ahora.svg"); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño del botón */
+    background-position: center; /* Posición de la imagen de fondo */
+  }
+  
+  /* Cambiar el color del texto del botón cuando se pasa el mouse por encima */
+  .whatsapp-button:hover {
+    color: #fff;
+  }
+  
+  /* Estilos adicionales para el enlace cuando se visualiza como botón */
+  .whatsapp-button {
+    text-decoration: none; /* Quitar subrayado del enlace */
+  }
+  
+  /* Estilos para el enlace cuando se enfoca (al presionar Tab) */
+  .whatsapp-button:focus {
+    outline: none; /* Eliminar el contorno predeterminado */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3); /* Agregar un contorno personalizado */
+  }
+  
+  
+  
